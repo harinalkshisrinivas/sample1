@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Basic
+{
+public static void main(String[] args)
+       {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter your name:");
+       String name=sc.nextLine();
+       System.out.println("your name is :"+name);
+       System.out.println("Enter your age:");
+       int age=sc.nextInt();
+       System .out.println("your age is:"+age);
+       System.out.println("Enter your salary:");
+       Double salary=sc.nextDouble();
+       System .out.println("your salary is:"+salary);
+       
+       }
+}
